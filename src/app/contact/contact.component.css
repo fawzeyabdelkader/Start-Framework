@@ -1,0 +1,47 @@
+/*^* My Inputs START   */
+/* .form-control:focus
+{
+  box-shadow: none;
+
+}
+
+label
+{
+  display: none;
+  left: 20px ;
+  transition: top 0.5s ease-in,left 0.5s ease-in;
+
+}
+
+.input:focus + label
+{
+  display: block;
+  font-size: 14px;
+   top: 0 !important;
+  left: 20px;
+  color: green !important;
+} */
+/*^* My Inputs END   */
+
+/* ^ INPUTS OLDS START  */
+ /* .form-control:focus
+{
+  box-shadow: none;
+
+} */
+/* ^ INPUTS OLDS END  */
+
+/*!  INPUTS bootstrap start  */
+ .form-control:focus
+{
+  box-shadow: none;
+
+}
+input:focus + label
+{
+  display: block;
+  font-size: 14px;
+   top: 0 !important;
+   color: green !important;
+}
+/*!  INPUTS bootstrap END  */

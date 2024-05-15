@@ -1,0 +1,28 @@
+.Home{
+  background-color: #1ABC9C;
+}
+.image-home{
+ width: 250px;
+}
+
+
+.star ::after{
+  content: " ";
+position: absolute;
+background-color: #fff;
+width: 100px;
+height: 4px;
+top: 50%;
+right: 32%;
+
+
+}
+.star::before{
+  content: "";
+  position: absolute;
+  background-color:#fff;
+  width: 100px;
+  height: 4px;
+  top: 50%;
+   left:32%;
+}

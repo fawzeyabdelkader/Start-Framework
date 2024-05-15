@@ -1,0 +1,28 @@
+
+.stars{
+  margin-top: 75px !important;
+}
+.stars h2{
+  color: #2C3E50
+
+}
+.star ::after{
+  content: " ";
+position: absolute;
+background-color: black;
+width: 100px;
+height: 4px;
+top: 50%;
+right: 60%;
+
+
+}
+.star::before{
+  content: "";
+  position: absolute;
+  background-color:black;
+  width: 100px;
+  height: 4px;
+  top: 50%;
+   left:60%;
+}

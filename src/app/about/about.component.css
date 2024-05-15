@@ -1,0 +1,26 @@
+.About{
+  background-color: #1ABC9C;
+  height: 100vh;
+}
+
+
+.star ::after{
+  content: " ";
+position: absolute;
+background-color: #f1f1ff;
+width: 100px;
+height: 4px;
+top: 50%;
+right: 53%;
+
+
+}
+.star::before{
+  content: "";
+  position: absolute;
+  background-color:#f1f1ff;
+  width: 100px;
+  height: 4px;
+  top: 50%;
+   left:53%;
+}

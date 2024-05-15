@@ -1,0 +1,31 @@
+footer{
+  background-color:#2b3e59;
+
+}
+footer .icons{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:solid 2px #f1f1f1;
+  border-radius: 50%;
+}
+footer .icons:hover{
+  border: none;
+  background-color:#f1f1f1 ;
+
+
+}
+footer .icons:hover i{
+  color: black !important;
+}
+/* footer i{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:solid 2px #f1f1f1;
+  border-radius: 50%;
+} */

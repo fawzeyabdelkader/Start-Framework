@@ -1,0 +1,90 @@
+<section class="portfolio mt-4">
+  <div>
+
+    <div class="container py-5 ">
+      <div>
+        <div class="text-center">
+          <h2 class="pt-5 fw-bold fs-1 ">PORTFOLIO COMPONENT</h2>
+          <div class=" mx-auto star position-relative mb-2">
+            <i class="fa-solid fa-star fs-4"></i>
+          </div>
+        </div>
+      </div>
+      <div class="row g-5">
+
+        <div class="col-md-4" (click)="open('poert1.png')">
+          <div class="item rounded-3">
+            <img src="../../assets/imagesPortfolio/poert1.png" class="w-100" alt="">
+            <div class="item-layer  text-center d-flex justify-content-center align-items-center">
+              <div>
+              <i class="fa-solid fa-plus "></i>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" (click)="open('port2.png')">
+          <div class="item rounded-3">
+            <img src="../../assets/imagesPortfolio/port2.png" class="w-100" alt="">
+            <div class="item-layer  text-center d-flex justify-content-center align-items-center">
+              <div>
+                <i class="fa-solid fa-plus "></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" (click)="open('port3.png')">
+          <div class="item rounded-3">
+            <img src="../../assets/imagesPortfolio/port3.png" class="w-100" alt="">
+            <div class="item-layer  text-center d-flex justify-content-center align-items-center">
+              <div>
+                <i class="fa-solid fa-plus "></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" (click)="open('poert1.png')">
+          <div class="item rounded-3">
+            <img src="../../assets/imagesPortfolio/poert1.png" class="w-100" alt="">
+            <div class="item-layer  text-center d-flex justify-content-center align-items-center">
+              <div>
+                <i class="fa-solid fa-plus "></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" (click)="open('port2.png')">
+          <div class="item rounded-3">
+            <img src="../../assets/imagesPortfolio/port2.png" class="w-100" alt="">
+            <div class="item-layer  text-center d-flex justify-content-center align-items-center">
+              <div>
+                <i class="fa-solid fa-plus "></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4  " (click)="open('port3.png')">
+          <div class="item rounded-3">
+            <img src="../../assets/imagesPortfolio/port3.png " class="w-100" alt="">
+            <div class="item-layer  text-center d-flex justify-content-center align-items-center">
+              <div>
+                <i class="fa-solid fa-plus "></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+
+  <div *ngIf="clicked==true"  class="lightbox-container d-flex  justify-content-center align-items-center position-fixed start-0 end-0 top-0 bottom-0">
+    <div class="lightbox-item position-relative d-flex align-items-center justify-content-between mt-4 ">
+       <img [src]="imageSrc" alt="" class="w-75 mt-3 mx-auto rounded-3">
+      <!-- <i id="prev" class="fa-solid fa-angle-left"></i> -->
+        <i (click)="close()"id="close" class="fa-regular fa-circle-xmark fs-1 opacity-50"></i>
+        <!-- <i id="next" class="fa-solid fa-angle-right"></i> -->
+    </div>
+  </div>
+</section>
